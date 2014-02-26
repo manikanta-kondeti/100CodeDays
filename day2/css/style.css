@@ -1,0 +1,197 @@
+body {
+background:yellow;
+animation:myfirst 15s;
+          -webkit-animation:myfirst 15s;
+}
+
+
+
+
+@keyframes myfirst
+{
+        from {background:yellow;}
+        to {background:red;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+        from {background:yellow;}
+        to {background:red;}
+}
+
+
+
+.WalkingMan {
+                                width: 700px;
+                                        height: 150px;
+                                                        margin: 20px auto;
+                                                                        text-align: center;
+}
+.body {
+                /*display: inline-block;*/
+                float:left;
+                        position: absolute;
+}
+
+.Manhead {
+                width: 20px;
+                        height: 20px;
+                                        border-radius: 50%;
+                                                background: #000;
+                                                                position: absolute;
+                                                                                margin-top: 15px;
+                                                                                        margin-left: 0px;
+}
+
+.Middlepart {
+                background: #000;
+                                height: 40px;
+                                                width: 10px;
+                                                        position: absolute;
+                                                                        margin-top: 38px;
+                                                                                margin-left: -5px;
+                                                                                        border-radius: 100%;
+                                                                                                transform: scale(2.2,1.3) skewY(-30deg);
+                                                                                                               -webkit-transform: scale(2.2,1.3) skewY(-30deg);
+                                                                                                                   -moz-transform: scale(2.2,1.3) skewY(-30deg);        
+}
+.ManBody {
+                        margin-left:350px;
+animation: ManBody 9s infinite ease-in;
+               -webkit-animation: ManBody 9s infinite ease-in;
+                   -moz-animation: ManBody 9s infinite ease-in;
+                        
+                        }
+
+.Lhand, .Rhand {
+                margin-top: 38px;
+                        margin-left: -5px;
+                                height: 50px;
+                                                width: 5px;
+                                                        background: #000;
+                                                                        float:left;
+}
+.LLeg, .RLeg {
+                margin-top: 80px;
+                        margin-left: -5px;
+                                height: 50px;
+                                                width: 5px;
+                                                        background: #000;
+                                                                        float:left;
+}
+
+.Lhand:after, .Rhand:after {
+                content: '';
+                                width: 8px;
+                                        height: 5px;
+                                                        border-radius: 50%;
+                                                                background: #000;
+                                                                                position: absolute;
+                                                                                                margin-top: 47px;
+                                                                                                        margin-left: -4px;
+}
+.LLeg:after, .RLeg:after {
+                content: '';
+                                width: 10px;
+                                        height: 5px;
+                                                        background: #000;
+                                                                        display: inline-block;
+                                                                                        position: absolute;
+                                                                                                        margin-top: 45px;
+}
+
+
+.Lhand, .RLeg {
+                transform-origin: 0 0;
+                    -webkit-transform-origin: 0 0;
+                        -moz-transform-origin: 0 0;
+                            animation: movement1 0.5s alternate infinite ease-out;
+                                           -webkit-animation: movement1 0.5s alternate infinite ease-out;
+                                               -moz-animation: movement1 0.5s alternate infinite ease-out;
+                                                
+}
+.Rhand, .LLeg {
+                transform-origin: 0 0;
+                    -webkit-transform-origin: 0 0;
+                        -moz-transform-origin: 0 0;
+                            animation: movement2 0.5s alternate infinite ease-out;
+                                           -webkit-animation: movement2 0.5s alternate infinite ease-out;
+                                               -moz-animation: movement2 0.5s alternate infinite ease-out;
+}
+
+
+@keyframes movement1
+{
+                0% {
+                                        transform:rotate(-30deg);
+                                                        }
+                        100% {
+                                                transform:rotate(30deg);
+                                                                }
+}
+@-webkit-keyframes movement1
+{
+                0% {
+                                        -webkit-transform:rotate(-30deg);
+                                                }
+                        100% {
+                                                -webkit-transform:rotate(30deg);
+                                                        }
+}
+@-moz-keyframes movement1
+{
+                0% {
+                                        -moz-transform:rotate(-30deg);
+                                                }
+                        100% {
+                                                -moz-transform:rotate(30deg);
+                                                        }
+}
+
+
+
+@keyframes movement2
+{
+                0% {
+                                        transform:rotate(30deg);
+                                                        }
+                        100% {
+                                                transform:rotate(-30deg);
+                                                                }
+}
+@-webkit-keyframes movement2
+{
+                0% {
+                                        -webkit-transform:rotate(30deg);
+                                                }
+                        100% {
+                                                -webkit-transform:rotate(-30deg);
+                                                        }
+}
+@-moz-keyframes movement2
+{
+                0% {
+                                        -moz-transform:rotate(30deg);
+                                                }
+                        100% {
+                                                -moz-transform:rotate(-30deg);
+                                                        }
+}
+
+
+@keyframes ManBody
+{
+                0% {margin-left:30px;}
+                        100% {margin-left:600px;}
+}
+@-webkit-keyframes ManBody
+{
+                0% {margin-left:30px;}
+                        100% {margin-left:600px;}
+}
+@-moz-keyframes ManBody
+{
+                0% {margin-left:30px;}
+                        100% {margin-left:600px;}
+}
+

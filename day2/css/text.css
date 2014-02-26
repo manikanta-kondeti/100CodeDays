@@ -1,0 +1,40 @@
+.wrapper{
+            max-width: 700px;
+                                height: 50px;
+                                            text-align: right;
+}
+
+.marquee1 {
+        font-size:20px;
+                            white-space: nowrap;
+                                -webkit-animation: rightThenLeft 10s linear;
+}
+
+
+
+
+.marquee3 {
+        font-size:40px;
+                            white-space: nowrap;
+                                -webkit-animation: leftThenRight 20s linear;
+}
+
+
+
+
+@-webkit-keyframes rightThenLeft {
+            0%   {margin-right:0;}
+                50%  {margin-right:100%;}
+                    100% {margin-right:0;}
+}
+
+
+
+
+@-webkit-keyframes leftThenRight {
+            0%   {margin-left:0;}
+                80%  {margin-left:100%;}
+                    100% {margin-left:0;}
+}
+
+
