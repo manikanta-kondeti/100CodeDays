@@ -1,0 +1,17 @@
+<?php
+$_POST['statement']="mani";
+?><?php
+$_POST['statement']="Silas";
+?><?php
+$_POST['statement']="mani";
+?><?php
+$_POST['statement']="MrFallen";
+?><?php
+$_POST['statement']="dasdsa";
+?><?php
+$_POST['statement']="saf";
+?><?php
+$_POST['statement']="http://www.google-melange.com/gsoc/org/list/public/google/gsoc2014";
+?><?php
+$_POST['statement']="aass";
+?>

@@ -1,0 +1,17 @@
+<?php
+include('./values/rv1.php');
+include('./values/rv2.php');
+include('./values/rv3.php');
+include('./values/rv4.php');
+include('./values/rv5.php');
+include('./values/rv6.php');
+include('./values/rv7.php');
+include('./values/rv8.php');
+include('./values/rv9.php');
+include('./values/rv10.php');
+include('./values/rv11.php');
+include('./values/rv12.php');
+include('./values/rv13.php');
+include('./values/rv14.php');
+include('./values/rv15.php');
+?>
