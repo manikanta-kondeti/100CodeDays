@@ -1,0 +1,87 @@
+
+<html>
+<head>
+<title>
+ FONT MASH 
+</title>
+</head>
+</body>
+
+<h1  align="center">
+
+          FONT-MASH 
+</h1>
+<table align="center"  border="0"   >
+<tr>
+<!-- First Column -->
+<td>
+<?php include('9.php') ?>
+</td>
+
+
+<td>
+</td> 
+
+<td>
+</td> 
+
+
+<td>
+</td>
+
+ 
+
+<td>
+</td>
+<br> 
+<!-- Second  Column -->
+<td>
+<?php include('10.php') ?>
+</td>
+
+</tr>	
+
+<!-- New row -->
+
+<tr>
+
+<form name="form1"  action="index6.php" method="POST" >
+<td>
+<input type="submit" name="9.php"  value="Vote" ></input>
+<input type='hidden' name='redirect'  value='index6.php'></input>
+<input type='hidden' name='file2'  value='9'></input>
+
+
+
+</form>
+
+<td>
+</td>
+
+<td>
+</td>
+
+
+<td>
+</td>
+
+
+
+<td>
+</td>
+<!-- Second  Column -->
+<form name="form1"  action="index6.php" method="POST" >
+<td>
+<input type="submit" name="9.php"  value="Vote" ></input>
+<input type='hidden' name='redirect'  value='index6.php'></input>
+<input type='hidden' name='file2'  value='10'></input>
+</td>
+</form>
+
+</tr>
+ 
+
+<!-- end -->
+</table>
+</body>
+</html>
