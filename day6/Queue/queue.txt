@@ -1,0 +1,19 @@
+Five Properties ::
+capacity
+size
+front
+rear
+elements
+
+
+functions 4:
+CreateQueue(int maxElements);
+Dequeue(Queue *Q);
+iunt front(Queue *Q);
+void Enqueue(Queue *Q,int element);
+
+Declarations::
+Q->elements=(int *)malloc(sizeof((int)*maxElements));
+Queue *Q=(Queue)malloc(sizeof(Queue));
+
+Circular Way of adding elements in a queue :D to be remembered !

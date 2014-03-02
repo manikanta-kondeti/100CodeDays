@@ -1,0 +1,2 @@
+Bfs is a basic Graph Search Traversal.It has many applications .
+It will create a tree with x as a source node
