@@ -1,0 +1,14 @@
+Create welcome.php which shows only login button. 
+
+if user is logged in : 
+        send him to index.php 
+
+else :
+        redirect to welcome.php
+
+Things Needed :
+
+A facebook app which requires some set of settings.
+After that imdb scrapper which helps in retrieving data regarding that movie.
+
+
