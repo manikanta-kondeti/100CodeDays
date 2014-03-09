@@ -1,0 +1,69 @@
+
+<?php
+session_start();
+
+if($_SESSION['SESS_MEMBER_ID']==NULL)
+{
+	header('Location: login-form.php');
+}
+else
+{
+
+	echo $_POST['id'];
+	$id=  $_POST['id'];
+	 
+}
+
+?>
+<html>
+<head>
+</head>
+<body>
+
+<?php
+	$con=mysqli_connect("localhost","root","mysql","login");
+	// Check connection
+	if (mysqli_connect_errno())
+	{
+		echo "Failed to connect to MySQL: " . mysqli_connect_error();
+	}
+
+	$val =$_SESSION['SESS_MEMBER_ID'];
+	$halo = mysqli_query($con,"SELECT * FROM halo where halo_id=$id");
+	$rec = mysqli_query($con,"SELECT * FROM receivers where halo_id=$id");
+	
+?>
+<!-- Halo heading -->
+<div>
+<?php
+
+while($row= mysqli_fetch_array($halo))
+{
+	$message=$row['message'];
+	$t=$row['t1'];
+echo "<h1 align='center'>$message</h1>";
+echo "<p align='center' style='margin:5px;'><b>Receivers: ";
+while($r=mysqli_fetch_array($rec))
+{ 
+	$con=mysqli_connect("localhost","root","mysql","login");
+	$rid=$r['receiver'];
+	echo $rid;
+	$name = mysqli_query($con,"SELECT * FROM members where member_id=$rid");
+	while($rname= mysqli_fetch_array($name))
+	{
+		echo $rname['login'];
+	}
+}
+echo "</b></p>";
+echo "<p align='center' style='margin:5px;'><b>$t </b></p>";
+}
+
+?>
+
+</div>
+
+
+
+
+</body>
+</html>
