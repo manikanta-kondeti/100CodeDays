@@ -7,7 +7,7 @@ No fucking reason to explain.....   Just do it :)
 
 Reference :
 ============
-http://researchweb.iiit.ac.in/~kondetimanikanta.purushotham/day1 
+http://researchweb.iiit.ac.in/~kondetimanikanta.purushotham/100CodeDays 
 
 Day 1 : A simple app which shows number of children born while you visit the page (OpenLayers , html+css)
 
