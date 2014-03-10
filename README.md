@@ -9,7 +9,7 @@ Reference :
 ============
 http://researchweb.iiit.ac.in/~kondetimanikanta.purushotham/day1 
 
-Day 1 : A simple app which shows number of children born based on the time the user spends on that page (OpenLayers , html+css)
+Day 1 : A simple app which shows number of children born while you visit the page (OpenLayers , html+css)
 
 Day 2 : A simple moving animated character(CSS3 , html+css)
 
