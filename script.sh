@@ -1,4 +1,4 @@
 #!/bin/bash
 git add * 
 git commit -am "Added "
-git push 
+git push origin master
