@@ -23,4 +23,4 @@ Day 8-9 : Reading clustering technique and a lot about Graph API (Graph API, mac
 
 Day 10-13 : A small chat application (Group Communication Client). Its a kind of grabHalo mobile app. (Backend : php+mysql , html+css)
 
-Day14-16 : Sample C programs(GSoC idea work) 
+Day14-16 : Sample C programs(GSoC idea work--Pick up and Delivery Problem with Time windows ) 
