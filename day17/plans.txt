@@ -1,1 +1,17 @@
  Write BFS and DFS in c . Learn about their Applications 
+
+ Breadth First search :- 
+
+ It is one of the important and useful data structures :)
+
+
+ DFS :
+ requires a stack. You will have a graph 
+ start with some vertex and put it visited=1 , if it is visited.
+ Take vertex that is top on the stack and see which is not visited. repeat the above steps.
+
+ BFS :
+ use of different supporting data structure. 
+ We will use a queue here.
+ Put the first vertex in a queue and dequeue it and try to get all the adjacent vertices. 
+ Repeat the steps as stated above. We will get a tree from breadth first search. 

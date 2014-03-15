@@ -1,0 +1,89 @@
+<html>
+<head>
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="buttons.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<style>
+ul
+{
+        list-style-type: none
+}
+li {
+        margin-left: 0;
+        margin-right: 10%;
+        margin-top: .8em;
+        margin-bottom: .8em;
+display:inline;
+}
+<style>
+
+.button-success,
+        .button-secondary {
+color: white;
+       border-radius: 4px;
+       text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
+
+.button-success {
+background: rgb(28, 184, 65); /* this is a green */
+}
+
+
+.button-secondary {
+background: rgb(66, 184, 221); /* this is a light blue */
+}
+p
+{
+        margin-left:10%;
+        margin-top:2%;
+}
+#menu
+{
+        margin-top:3%;
+        margin-bottom:2%;
+}
+</style>
+<script>
+<!-- First Jquery script -->
+$(document).ready(function()
+                {
+                $("#home").click(function()
+                        {
+                        $("#home_div").show();
+                        $("#more_div").hide();
+                        });
+
+                $("#more").click(function()
+                        {
+                        $("#home_div").hide();
+                        $("#more_div").show();
+                        });
+    });
+</script>
+
+</head>
+<body>
+<h1 align="center">Graph Theory </h1>
+<div align="center" id="menu">
+<ul id="ul">
+<li><button id="home" class="pure-button pure-button-primary">Home</button></li>
+<li><button id="theory" class="pure-button pure-button-primary">Theory</button></li>
+<li><button id="applications" class="pure-button pure-button-primary">Applications</button></li>
+<li><button id="examples" class="pure-button pure-button-primary">Examples</button></li>
+<li><button id="more" class="pure-button pure-button-primary">More</button></li>
+</ul>
+<!-- Successful Buttons with green and light blue 
+ <button class="button-success pure-button">Success Button</button>
+             <button class="button-secondary pure-button">Secondary Button</button>  -->
+</div>
+<hr>
+<div id="home_div">
+<h4 align="center">Breadth First Search </h4>
+<div align="center">
+<img src="http://artint.info/figures/ch03/sgraph_br_new.png" > </img></div>
+<div>
+<div id="more_div">
+<p align="center">------------Graph Theory-----------</p></div>
+</body>
+</body>
+</html>
