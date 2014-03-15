@@ -24,3 +24,6 @@ Day 8-9 : Reading clustering technique and a lot about Graph API (Graph API, mac
 Day 10-13 : A small chat application (Group Communication Client). Its a kind of grabHalo mobile app. (Backend : php+mysql , html+css)
 
 Day14-16 : Sample C programs(GSoC idea work--Pick up and Delivery Problem with Time windows ) 
+
+Day 17 : Learning Graph algorithms and their uses. Example : BFS and DFS. Tried a few things from purecss.io
+         Day17: http://researchweb.iiit.ac.in/~kondetimanikanta.purushotham/100CodeDays/day17
