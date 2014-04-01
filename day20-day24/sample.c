@@ -14,6 +14,8 @@ typedef struct Vehicle
         int capacity;
 }Vehicle;
 
+
+
 int main()
 {
         int dis[1000][1000];
