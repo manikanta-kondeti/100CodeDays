@@ -27,3 +27,9 @@ Day14-16 : Sample C programs(GSoC idea work--Pick up and Delivery Problem with T
 
 Day 17 : Learning Graph algorithms and their uses. Example : BFS and DFS. Tried a few things from purecss.io
          http://researchweb.iiit.ac.in/~kondetimanikanta.purushotham/100CodeDays/day17
+
+Day 19 : PythonWorkshop Plan
+
+Day 20-25 : SNS assignment-5 ( Sql Injection, XSS attacks, clickjacking)
+
+Day 25-35 : Facebook APP-1 with Neel(Perfect Visualization with d3.js and also using GraphAPI)
