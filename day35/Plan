@@ -1,0 +1,18 @@
+List of people who are interested in you
+
+
+Take out two separate lists for male and female.
+$male_fnds    constraint will be age_limit belongs to [x-4, x]   where x is age of the male user.
+$female_fnds  constraint will be age_limit belongs to [y, y+4]   where y is the age of the female person. 
+
+
+Initial plan is to write a sample app and host it in heroku. (before 2)    ------   Done (1:57 pm)
+
+
+Now take out lists and permissions and store it in array data structure. (before 3) 
+        While (doing)
+        {
+                    Understand the code. 
+                    Put a query and display them.
+        }
+

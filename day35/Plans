@@ -1,0 +1,22 @@
+Create welcome.php which shows only login button. 
+
+if user is logged in : 
+        send him to index.php 
+
+else :
+        redirect to welcome.php
+
+Things Needed :
+
+A facebook app which requires some set of settings.
+
+
+Idea :1 
+Clustering Analysis of facebook data. 
+So we need some set of attributes like age , location , gender , friends count etc..
+
+
+Task 1:Let us check for getting the attributes data.
+After that imdb scrapper which helps in retrieving data regarding that movie.
+
+
