@@ -1,7 +1,7 @@
-Facebook/Heroku sample app -- PHP
+Facebook/Heroku TopChatters App -- PHP
 =================================
 
-This is a sample app showing use of the Facebook Graph API, written in PHP, designed for deployment to [Heroku](http://www.heroku.com/).
+This is a small app which shows the list of people with whom you chat the most & showing use of the Facebook Graph API, written in PHP, designed for deployment to [Heroku](http://www.heroku.com/).
 
 Run locally
 -----------
