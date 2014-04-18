@@ -1,0 +1,23 @@
+About IPV4:
+IPV4 is an unreliable datagram protocol."Best effort to delivery"
+No flow control or error control. 
+It consists of two parts 
+1.)Header 
+2.)Data
+
+Header contains different fields: 
+        Version- which version it is, either ipv4 or ipv6.
+        header length-length of the header field in 4 byte words. 4<=HLEN<=15
+        Total length
+        Time to live 
+        Protocol -(ICMP, IGMP, TCP, UDP)
+        Header checksum 
+        source ip address
+        destination ip address
+        identification 
+        flag 
+OSI Model of layers:
+         Application layer
+         Transport layer 
+         Network layer
+         Data link layer
