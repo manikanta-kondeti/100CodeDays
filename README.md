@@ -33,3 +33,6 @@ Day 19 : PythonWorkshop Plan
 Day 20-25 : SNS assignment-5 ( Sql Injection, XSS attacks, clickjacking)
 
 Day 25-35 : Facebook APP-1 with Neel(Perfect Visualization with d3.js and also using GraphAPI)
+
+
+Day48-58 : Exams :D :D !!        
