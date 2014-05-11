@@ -32,11 +32,10 @@ Day 19 : PythonWorkshop Plan
 
 Day 20-25 : SNS assignment-5 ( Sql Injection, XSS attacks, clickjacking)
 
-Day 25-35 : Facebook APP-1 with Neel(Perfect Visualization with d3.js and also using GraphAPI)
+Day 25-35 : Apps :D 
 
 
-The Next days will be my GSoC work. I wont Publish it here :) 
+The Next few days will be my GSoC work. I wont Publish it here :) 
 Thanks for Reading all this shit  :) !
 
-
---- \m/anIkanta
+                           \m/anIkanta
