@@ -259,8 +259,6 @@ background-size:1700px 850px;
       </div>
       <?php } ?>
 
-<style>
-</style>
     <?php
       if ($user_id) {
     ?>
